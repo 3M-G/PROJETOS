@@ -1,121 +1,76 @@
-<div align="center">
+# 🚢 Batalha Naval — Portugol/VisuAlg
 
-# 👨‍💻 Guilherme Costa Ferreira | 3M
+> Projeto desenvolvido em Portugol/VisuAlg como projeto de portfólio após a conclusão do curso de Algoritmos do Canal Curso em Vídeo.
 
-<img src="https://readme-typing-svg.herokuapp.com/?color=00F7FF&size=35&center=true&vCenter=true&width=1000&lines=Olá,+eu+sou+o+3M!;Estudante+e+Desenvolvedor+em+evolução;Apaixonado+por+Tecnologia+e+Programação;Bem-vindo+ao+meu+GitHub!"/>
-
-</div>
-
----
-
-<div align="center">
-
-## 🚀 Sobre Mim
-
-🎓 17 anos  
-📚 2º ano do Ensino Médio  
-💻 Estudando programação e desenvolvimento  
-🔥 Construindo projetos e evoluindo todos os dias  
-
-</div>
+![Status](https://img.shields.io/badge/Status-Concluído-green)
+![Linguagem](https://img.shields.io/badge/Linguagem-Portugol%20%2F%20VisuAlg-blue)
+![Tipo](https://img.shields.io/badge/Tipo-Jogo-purple)
 
 ---
 
-# 🧠 Minha Jornada
+## 🎮 Sobre o Projeto
 
-Olá! Me chamo **Guilherme Costa Ferreira**, conhecido como **3M**.
-
-Sou apaixonado por tecnologia e estou construindo minha trajetória como desenvolvedor através de estudos, prática e criação de projetos.
-
-### ✅ Cursos concluídos
-
-✔️ Git e GitHub — Curso em Vídeo  
-✔️ Lógica de Programação — Curso em Vídeo  
-
-Atualmente sigo aprimorando meus conhecimentos e colocando tudo em prática nos meus projetos.
+Jogo de Batalha Naval completo desenvolvido em console com Portugol/VisuAlg. O jogador enfrenta o computador em uma batalha para destruir todos os navios inimigos antes que os seus sejam destruídos. O projeto aplica conceitos de matrizes, aleatoriedade e estruturas de repetição.
 
 ---
 
-# 📂 Repositórios
+## ⚙️ Como Funciona
 
-## 📘 Jornada de Aprendizagem
+### Fase 1 — Posicionamento
+- O jogador posiciona **10 navios** no seu tabuleiro informando linha e coluna
+- O computador posiciona **10 navios** automaticamente em posições aleatórias
 
-Repositório focado nos meus estudos de lógica de programação, exercícios e evolução como programador.
+### Fase 2 — Batalha
+- O jogador ataca informando uma linha e coluna no tabuleiro do computador
+- O computador ataca automaticamente o tabuleiro do jogador com posições aleatórias
+- Cada turno exibe se o ataque acertou ou errou
 
-## 🛠️ Projetos Práticos
-
-Projetos desenvolvidos para aplicar meus conhecimentos na prática e evoluir minhas habilidades.
-
----
-
-# 🚀 Tecnologias e Ferramentas
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=git,github,html,css,js,vscode" />
-
-</div>
+### Fase 3 — Vitória
+- O jogo termina quando alguém destruir todos os **10 navios** do adversário
+- O sistema anuncia o vencedor ao final
 
 ---
 
-# 📊 Estatísticas GitHub
+## 🗺️ Legenda do Tabuleiro
 
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=3M-G&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=3M-G&layout=compact&langs_count=7&theme=tokyonight"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=3M-G&theme=tokyonight" />
-
-</div>
+| Valor | Significado |
+|---|---|
+| `0` | Água — posição vazia |
+| `1` | Navio posicionado |
 
 ---
 
-# 🏆 Conquistas
+## 🧠 Conceitos Aplicados
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=3M-G&theme=tokyonight&row=1&no-bg=true&margin-w=15" />
-
-</div>
-
----
-
-# 🌎 Redes Sociais
-
-<div align="center">
-
-<a href="https://www.instagram.com/guilherme.edr/" target="_blank">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
-</a>
-
-<a href="https://www.linkedin.com/in/guilherme-costa-ferreira-3m/" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-
-</div>
+- **Matrizes** — tabuleiros representados como `vetor[1..10, 1..10]`
+- **Aleatoriedade** — função `randi()` para posicionamento e ataques do computador
+- **Estruturas de repetição** — `para` e `enquanto` para controle do jogo
+- **Estruturas de decisão** — `se/senao` para verificar acertos e derrotas
+- **Contadores** — controle de navios destruídos de cada lado
 
 ---
 
-# 🎯 Objetivos
+## 🖥️ Como Rodar no VisuAlg
 
-🚀 Evoluir como desenvolvedor  
-📚 Aprender novas tecnologias  
-💡 Criar projetos cada vez melhores  
-🔥 Transformar conhecimento em experiência real  
+1. Baixe e instale o **VisuAlg** — [visualg3.com.br](http://visualg3.com.br/)
+2. Faça o download do arquivo `projeto02.alg` deste repositório
+3. Abra o VisuAlg
+4. Clique em **Arquivo → Abrir** e selecione o arquivo
+5. Pressione **F9** para executar
+6. Posicione seus 10 navios e boa sorte! ⚓
 
 ---
 
-<div align="center">
+## 🏆 Estratégia
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:2563eb&height=120&section=footer"/>
+- Distribua seus navios pelo tabuleiro para dificultar o ataque do computador
+- Tente cobrir diferentes regiões do tabuleiro ao atacar
+- Lembre-se que o computador ataca de forma aleatória — a sorte também conta!
 
-</div>
+---
 
-<div align="center">
+## 👨‍💻 Autor
 
-✨ _“A prática leva à evolução.”_ ✨
-
-</div>
-
+**Guilherme Costa Ferreira — 3M**  
+Projeto desenvolvido em maio de 2026  
+Baseado no curso de Algoritmos do [Curso em Vídeo](https://www.cursoemvideo.com/curso/curso-de-algoritmo/)
