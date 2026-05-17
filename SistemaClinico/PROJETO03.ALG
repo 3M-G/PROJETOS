@@ -1,3 +1,14 @@
+// =====================================================
+// Projeto: Sistema de Clínica Médica
+// Autor: Guilherme Costa Ferreira [3M]
+// Data: 05.2026
+// Descrição: Sistema de gerenciamento de clínica médica
+// simulado em Portugol/VisuAlg. Permite o cadastro de
+// pacientes e médicos, agendamento de consultas com
+// vinculação entre registros, gerenciamento de status
+// (agendada, realizada ou cancelada) e geração de
+// relatórios gerenciais com totais por status.
+// =====================================================
 algoritmo "Projeto03"
 var
    nomepaciente: vetor[1..50] de caractere
