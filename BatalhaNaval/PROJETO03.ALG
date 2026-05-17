@@ -1,3 +1,17 @@
+// =====================================================
+// Projeto: Batalha Naval
+// Autor: Guilherme Costa Ferreira [3M]
+// Data: 05.2026
+// Descrição: Jogo de Batalha Naval simulado em
+// Portugol/VisuAlg.
+// O jogador posiciona 10 navios
+// manualmente em um tabuleiro 10x10 e o computador
+// posiciona os seus automaticamente de forma aleatória.
+// O jogo ocorre em turnos onde o jogador e o computador
+// atacam alternadamente até que todos os navios de um
+// dos lados sejam destruídos. O sistema anuncia o
+// vencedor ao final da partida.
+// =====================================================
 algoritmo "projeto02"
 var
    tabuleiro01: vetor[1..10, 1..10] de inteiro
