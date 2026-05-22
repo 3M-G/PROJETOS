@@ -135,7 +135,7 @@ inicio
                                                         fimse
                                                   fimse
                                              caso 4
-                                                  escreval ("Construindo")
+
                                              caso 5
                                                   escreval ("Construindo")
                                              caso 0
