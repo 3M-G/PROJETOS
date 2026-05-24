@@ -1,12 +1,12 @@
       // =====================================================
-      // Projeto: Sistema Bancário
+      // Projeto: Sistema BancÃ¡rio
       // Autor: Guilherme Costa Ferreira [3M]
       // Data: 16.05.2026
-      // Descrição: Sistema bancário simulado em Portugol/VisuAlg.
+      // DescriÃ§Ã£o: Sistema bancÃ¡rio simulado em Portugol/VisuAlg.
       // Permite cadastro de clientes, login com senha,
-      // operações bancárias como depósito, saque e transferência
-      // entre contas, extrato de operações e relatório geral
-      // com maior saldo, menor saldo e média de todos os clientes.
+      // operaÃ§Ãµes bancÃ¡rias como depÃ³sito, saque e transferÃªncia
+      // entre contas, extrato de operaÃ§Ãµes e relatÃ³rio geral
+      // com maior saldo, menor saldo e mÃ©dia de todos os clientes.
       // =====================================================
 algoritmo "Projeto01"
 var
@@ -24,12 +24,12 @@ inicio
       opcao <- 1
       totalcontas <- 0
       escreval ("----------------------------------------------------")
-      escreval ("                 Sistema Bancário                   ")
+      escreval ("                 Sistema BancÃ¡rio                   ")
       escreval ("----------------------------------------------------")
       enquanto (opcao <> 0) faca
                escreval ("[1] Criar Conta")
                escreval ("[2] Acessar Conta")
-               escreval ("[3] Relatório geral")
+               escreval ("[3] RelatÃ³rio geral")
                escreval ("[0] Sair")
                leia (opcao)
                escolha opcao
@@ -47,7 +47,7 @@ inicio
                             saldo[totalcontas] <- 0
                             contaativa[totalcontas] <- verdadeiro
                             escreval ("Parabens Cadastro Concluido!")
-                            escreval ("O numero da sua conta é: ", totalcontas)
+                            escreval ("O numero da sua conta Ã©: ", totalcontas)
                        caso 2
                             escreval ("-----")
                             escreval ("Login")
@@ -55,7 +55,7 @@ inicio
                             escreval ("Digite o numero da sua conta: ")
                             leia (contas)
                             se (contas > totalcontas) ou (contas < 1) entao
-                               escreval ("Essa conta não existe!")
+                               escreval ("Essa conta nÃ£o existe!")
                                escreval ("Digite o numero da sua conta: ")
                                leia (contas)
                             fimse
@@ -83,7 +83,7 @@ inicio
                                           leia (opcao2)
                                           escolha opcao2
                                                   caso 1
-                                                       escreval ("Olá ", nomecliente[contas], " seu saldo é: ", saldo[contas])
+                                                       escreval ("OlÃ¡ ", nomecliente[contas], " seu saldo Ã©: ", saldo[contas])
                                                   caso 2
                                                        escreval ("Digite o valor do deposito: ")
                                                        leia (deposito)
@@ -109,7 +109,7 @@ inicio
                                                           escreval ("digite a conta destinario: ")
                                                           leia (contanova)
                                                        senao
-                                                            escreval ("Qual é o valor da transferencia: R$")
+                                                            escreval ("Qual Ã© o valor da transferencia: R$")
                                                             leia (transferencia)
                                                             se (transferencia > saldo[contas]) entao
                                                                escreval ("Saldo Insuficiente!")
@@ -132,7 +132,7 @@ inicio
                                                   caso 0
                                                        escreval ("voltando...")
                                                   outrocaso
-                                                           escreval ("Opção Invalida!")
+                                                           escreval ("OpÃ§Ã£o Invalida!")
                                           fimescolha
                                  fimenquanto
                             fimse
@@ -155,9 +155,9 @@ inicio
                                  fimse
                             fimpara
                             media <- soma / totalcontas
-                            escreval ("O maior saldo é: ", maiorsaldo)
-                            escreval ("o menor saldo é: ", menorsaldo)
-                            escreval ("A Media de saldos é: ", media:5:2)
+                            escreval ("O maior saldo Ã©: ", maiorsaldo)
+                            escreval ("o menor saldo Ã©: ", menorsaldo)
+                            escreval ("A Media de saldos Ã©: ", media:5:2)
                             escreval ("Total de contas cadastradas: ", totalcontas)
                        caso 0
                             escreval ("=====================================================")
@@ -166,7 +166,7 @@ inicio
                             escreval ("     Volte sempre!                                   ")
                             escreval ("=====================================================")
                        outrocaso
-                            escreval ("Opção Invalida!")
+                            escreval ("OpÃ§Ã£o Invalida!")
                fimescolha
       fimenquanto
 fimalgoritmo
