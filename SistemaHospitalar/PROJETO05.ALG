@@ -298,7 +298,7 @@ inicio
                                                         se (codigomedico[i] = codigo3) entao
                                                            escreval ("[1] Alterar Nome")
                                                            escreval ("[2] Alterar CRM")
-                                                           escreval ("[3] Alterar Especialidae")
+                                                           escreval ("[3] Alterar Especialidade")
                                                            escreval ("[0] Voltar")
                                                            leia (sugestao4)
                                                            escolha sugestao4
@@ -316,7 +316,7 @@ inicio
                                                                    outrocaso
                                                                             escreval ("Opção Invalida!")
                                                            fimescolha
-                                                           achou <- verdaadeiro
+                                                           achou <- verdadeiro
                                                         fimse
                                                    fimpara
                                                    se (achou = falso) entao
